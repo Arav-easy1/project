@@ -1,10 +1,12 @@
 import React from "react";
+import Projects from "../components/Projects";
+import "./Home.css";
 
 function Home() {
   return (
-    <div>
-      <p>프로젝트들 올라갈 것임.</p>
-    </div>
+    <section className="container">
+      <Projects />
+    </section>
   );
 }
 
